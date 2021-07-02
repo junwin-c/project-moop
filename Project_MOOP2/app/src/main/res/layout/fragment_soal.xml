@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Soal">
+    <TextView
+        android:id="@+id/point"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="right"
+        android:textSize="20dp"
+
+        android:textStyle="bold"></TextView>
+    <TextView
+        android:id="@+id/a"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="20dp"
+
+        android:textStyle="bold"></TextView>
+    <TextView
+        android:id="@+id/b"
+        android:layout_width="match_parent"
+
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="20dp"
+
+
+        android:textStyle="bold"></TextView>
+    <TextView
+        android:id="@+id/c"
+        android:layout_width="match_parent"
+
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="20dp"
+
+
+        android:textStyle="bold"></TextView>
+    <TextView
+        android:id="@+id/persoalan"
+        android:layout_width="match_parent"
+
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="20dp"
+
+
+        android:textStyle="bold"></TextView>
+    <EditText
+        android:id="@+id/data_Jawaban"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:inputType="number"
+        android:hint="Jawaban"
+        ></EditText>
+    <Button
+        android:id="@+id/btnhasil"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hasil"
+        ></Button>
+    <TextView
+        android:id="@+id/Jawaban_benar"
+        android:layout_width="match_parent"
+
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="20dp"
+
+
+        android:textStyle="bold"></TextView>
+
+
+</LinearLayout>
