@@ -1,5 +1,7 @@
 package com.example.project_moop;
 
+import java.util.Random;
+
 public class Rumus_Lingkaran implements BangunDatar, Soal_Quiz {
     float r;
     public Rumus_Lingkaran(float r){
@@ -19,6 +21,7 @@ public class Rumus_Lingkaran implements BangunDatar, Soal_Quiz {
 
         return keliling;
     }
+
     @Override
     public void random_soal() {
         Random ran= new Random();

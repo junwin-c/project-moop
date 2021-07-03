@@ -1,5 +1,7 @@
 package com.example.project_moop;
 
+import java.util.Random;
+
 public class Rumus_kubus extends Rumus_Persegi implements BangunRuang, Soal_Quiz {
 
 
@@ -19,6 +21,7 @@ public class Rumus_kubus extends Rumus_Persegi implements BangunRuang, Soal_Quiz
         float LP= hitungLuas()* 6;
         return LP;
     }
+
     @Override
     public void random_soal() {
         Random ran= new Random();

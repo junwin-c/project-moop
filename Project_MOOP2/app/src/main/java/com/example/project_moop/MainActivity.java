@@ -24,6 +24,7 @@ public class MainActivity extends AppCompatActivity {
         Intent intent=new Intent(MainActivity.this,pilih_perhitungan_bangun_datar.class);
         startActivity(intent);
     }
+
     public void pilih_perhitungan_baris_deret(View view) {
         Intent intent=new Intent(MainActivity.this,pilih_perhitungan_baris_deret.class);
         startActivity(intent);

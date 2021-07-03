@@ -25,14 +25,14 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="Balok"
+            android:text="Baris"
             ></Button>
         <Button
             android:onClick="Geometri"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="Tabung"
+            android:text="Deret"
             ></Button>
         <Button
             android:onClick="activity_main"

@@ -15,43 +15,40 @@
         android:id="@+id/container"
         ></FrameLayout>
     <LinearLayout
-            android:layout_alignParentBottom="true"
-            android:padding="10dp"
-            android:id="@+id/nav"
+        android:layout_alignParentBottom="true"
+        android:padding="10dp"
+        android:id="@+id/nav"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        ><Button
+        android:onClick="persegi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="Persegi"
+        ></Button>
+        <Button
+            android:onClick="persegi_panjang"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:orientation="vertical"
-            android:layout_marginBottom="167dp"
-            android:layout_alignParentEnd="true" android:layout_alignParentRight="true"
-            android:layout_marginRight="100dp" android:layout_marginEnd="100dp">
+            android:layout_weight="1"
+            android:text="Persegi Panjang"
+            ></Button>
         <Button
-                android:onClick="persegi"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:text="Persegi"
-        ></Button>
+            android:onClick="lingkaran"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="lingkaran"
+            ></Button>
         <Button
-                android:onClick="persegi_panjang"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:text="Persegi Panjang"
-        ></Button>
-        <Button
-                android:onClick="lingkaran"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:text="lingkaran"
-        ></Button>
-        <Button
-                android:onClick="activity_main"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:text="Back"
-        ></Button>
+            android:onClick="activity_main"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Back"
+            ></Button>
     </LinearLayout>
 
 </RelativeLayout>
