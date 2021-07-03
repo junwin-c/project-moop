@@ -1,6 +1,6 @@
 package com.example.project_moop;
 
-public class Rumus_Lingkaran implements BangunDatar {
+public class Rumus_Lingkaran implements BangunDatar, Soal_Quiz {
     float r;
     public Rumus_Lingkaran(float r){
         this.r=r;
