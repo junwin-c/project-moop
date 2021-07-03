@@ -19,4 +19,9 @@ public class Rumus_Lingkaran implements BangunDatar {
 
         return keliling;
     }
+    @Override
+    public void random_soal() {
+        Random ran= new Random();
+        r= (float) (ran.nextInt(30));
+    }
 }
