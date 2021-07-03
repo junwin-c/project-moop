@@ -38,6 +38,20 @@
                 android:layout_weight="1"
                 android:text="Bangun Ruang"
         ></Button>
+        <Button
+            android:onClick="pilih_perhitungan_baris_deret"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Baris deret"
+            ></Button>
+        <Button
+            android:onClick="soal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Quiz"
+            ></Button>
     </LinearLayout>
 
 
