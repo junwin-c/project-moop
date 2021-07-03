@@ -1,7 +1,7 @@
 package com.example.project_moop;
 
 
-public class Rumus_Persegi implements BangunDatar{
+public class Rumus_Persegi implements BangunDatar, Soal_Quiz{
     float sisi;
     public Rumus_Persegi(float sisi){
         this.sisi=sisi;
@@ -22,5 +22,10 @@ public class Rumus_Persegi implements BangunDatar{
 
         float keliling=4*sisi;
         return keliling;
+    }
+    @Override
+    public void random_soal() {
+        Random ran= new Random();
+        sisi= (float) (ran.nextInt(30));
     }
 }
