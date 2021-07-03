@@ -1,6 +1,6 @@
 package com.example.project_moop;
 
-public class Rumus_Tabung extends Rumus_Lingkaran implements BangunRuang{
+public class Rumus_Tabung extends Rumus_Lingkaran implements BangunRuang, Soal_Quiz{
     float tinggi;
 
     public Rumus_Tabung(float r) {
@@ -26,4 +26,10 @@ public class Rumus_Tabung extends Rumus_Lingkaran implements BangunRuang{
         return lp;
 
     }
+    @Override
+        public void random_soal() {
+            Random ran= new Random();
+            r= (float) (ran.nextInt(31));
+            tinggi= (float) (ran.nextInt(31));
+        }
 }
