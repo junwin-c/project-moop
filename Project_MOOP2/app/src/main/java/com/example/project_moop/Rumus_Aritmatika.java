@@ -14,13 +14,13 @@ public class Rumus_Aritmatika implements Baris_dan_Deret, Soal_Quiz {
     @Override
     public float baris() {
         float hasil= u1 + (n-1)*b;
-        return 0;
+        return hasil;
     }
 
     @Override
     public float deret() {
         float hasil= (n/2) * (u1 + baris());
-        return 0;
+        return hasil;
     }
 
     @Override

@@ -42,13 +42,13 @@ public class Geometri extends Fragment {
                 Float float_n = Float.parseFloat(n);
                 Rumus_Geometri perhitungan = new Rumus_Geometri(float_u1, float_r, float_n);
                 float volume = perhitungan.baris();
-                float lp = perhitungan.baris();
+                float lp = perhitungan.deret();
 
                 if (u1.isEmpty() || r.isEmpty() || n.isEmpty()) {
                     hasil_volume.setText("Hasil isi terlebih dahulu");
                 } else {
 
-                    String volume_str = "Baris-ke :" + n + Float.toString(volume);
+                    String volume_str = "Baris-ke " + n + ": "+ Float.toString(volume);
                     String lp_str = "deret :" + Float.toString(lp);
                     hasil_volume.setText(volume_str);
                     hasil_lp.setText(lp_str);
