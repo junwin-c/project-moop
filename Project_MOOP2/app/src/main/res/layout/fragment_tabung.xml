@@ -16,7 +16,7 @@
         android:layout_marginStart="20dp"
         android:layout_marginEnd="20dp"
         android:inputType="number"
-        android:hint="jari-jari"
+        android:hint="Jari-jari"
         ></EditText>
     <EditText
         android:id="@+id/data_tinggi"

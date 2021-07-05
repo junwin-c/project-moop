@@ -53,16 +53,16 @@
 
 
         android:textStyle="bold"></TextView>
+
     <EditText
         android:id="@+id/data_Jawaban"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="10dp"
         android:layout_marginStart="20dp"
+        android:layout_marginTop="10dp"
         android:layout_marginEnd="20dp"
-        android:inputType="number"
         android:hint="Jawaban"
-        ></EditText>
+        android:inputType="number|numberDecimal"></EditText>
 
     <Button
         android:id="@+id/btnhasil"

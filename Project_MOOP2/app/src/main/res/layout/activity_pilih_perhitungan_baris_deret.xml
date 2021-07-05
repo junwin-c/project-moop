@@ -9,7 +9,7 @@
     <FrameLayout
         android:id="@+id/container"
         android:layout_width="match_parent"
-        android:layout_height="264dp"
+        android:layout_height="344dp"
         android:layout_above="@+id/nav_datar"
         android:layout_marginBottom="170dp"></FrameLayout>
 
@@ -20,9 +20,9 @@
         android:layout_alignParentEnd="true"
         android:layout_alignParentRight="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginEnd="20dp"
-        android:layout_marginRight="20dp"
-        android:layout_marginBottom="208dp"
+        android:layout_marginEnd="23dp"
+        android:layout_marginRight="23dp"
+        android:layout_marginBottom="128dp"
         android:orientation="horizontal"
         android:padding="10dp">
 
@@ -67,9 +67,9 @@
         android:layout_alignParentEnd="true"
         android:layout_alignParentRight="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginEnd="217dp"
-        android:layout_marginRight="217dp"
-        android:layout_marginBottom="299dp"
+        android:layout_marginEnd="215dp"
+        android:layout_marginRight="215dp"
+        android:layout_marginBottom="221dp"
         android:src="@drawable/baris" />
 
     <ImageView
@@ -81,6 +81,6 @@
         android:layout_alignParentBottom="true"
         android:layout_marginEnd="51dp"
         android:layout_marginRight="51dp"
-        android:layout_marginBottom="298dp"
+        android:layout_marginBottom="227dp"
         android:src="@drawable/arithmetic" />
 </RelativeLayout>

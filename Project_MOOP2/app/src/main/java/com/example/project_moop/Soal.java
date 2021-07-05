@@ -46,7 +46,7 @@ public class Soal extends Fragment {
             persegi.random_soal();
             float s=persegi.sisi;
 
-            persoalan.setText("Hitunglah Luas");
+            persoalan.setText("Hitunglah Luas Persegi");
             a.setText("Sisi"+ Float.toString(s));
             jawaban=persegi.hitungLuas();
 
@@ -55,7 +55,7 @@ public class Soal extends Fragment {
             persegi.random_soal();
             float s=persegi.sisi;
 
-            persoalan.setText("Hitunglah Keliling");
+            persoalan.setText("Hitunglah Keliling Persegi");
             a.setText("Sisi"+ Float.toString(s));
             jawaban=persegi.hitungKeliling();
         }else if(rand==3){
@@ -64,7 +64,7 @@ public class Soal extends Fragment {
             float p=persegi_panjang.panjang;
             float l= persegi_panjang.lebar;
 
-            persoalan.setText("Hitunglah Luas");
+            persoalan.setText("Hitunglah Luas Persegi Panjang");
             a.setText("Panjang :" +Float.toString(p));
             b.setText("Lebar :" +Float.toString(l));
             jawaban=persegi_panjang.hitungLuas();
@@ -74,7 +74,7 @@ public class Soal extends Fragment {
             float p=persegi_panjang.panjang;
             float l= persegi_panjang.lebar;
 
-            persoalan.setText("Hitunglah Keliling");
+            persoalan.setText("Hitunglah Keliling Persegi Panjang");
             a.setText("Panjang :" +Float.toString(p));
             b.setText("Lebar :" +Float.toString(l));
             jawaban=persegi_panjang.hitungKeliling();
@@ -83,23 +83,23 @@ public class Soal extends Fragment {
             Lingkaran.random_soal();
             float r=Lingkaran.r;
 
-            persoalan.setText("Hitunglah Luas");
-            a.setText("jari-jari :"+ Float.toString(r));
+            persoalan.setText("Hitunglah Luas Lingkaran");
+            a.setText("Jari-jari :"+ Float.toString(r));
             jawaban=Lingkaran.hitungLuas();
         }else if(rand==6){
             Rumus_Lingkaran Lingkaran= new Rumus_Lingkaran(0);
             Lingkaran.random_soal();
             float r=Lingkaran.r;
 
-            persoalan.setText("Hitunglah Keiling");
-            a.setText("jari-jari :"+ Float.toString(r));
+            persoalan.setText("Hitunglah Keliling Lingkaran");
+            a.setText("Jari-jari :"+ Float.toString(r));
             jawaban=Lingkaran.hitungKeliling();
         }else if(rand==7){
             Rumus_kubus Kubus= new Rumus_kubus(0);
             Kubus.random_soal();
             float s=Kubus.sisi;
 
-            persoalan.setText("Hitunglah volume");
+            persoalan.setText("Hitunglah Volume Kubus");
             a.setText("Sisi"+ Float.toString(s));
             jawaban=Kubus.Volume();
         }else if(rand==8){
@@ -107,7 +107,7 @@ public class Soal extends Fragment {
             Kubus.random_soal();
             float s=Kubus.sisi;
 
-            persoalan.setText("Hitunglah Luas Permukaan");
+            persoalan.setText("Hitunglah Luas Permukaan Kubus");
             a.setText("Sisi"+ Float.toString(s));
             jawaban=Kubus.LuasPermukaan();
         }else if(rand==9){
@@ -116,7 +116,7 @@ public class Soal extends Fragment {
             float p=Balok.panjang;
             float l= Balok.lebar;
             float t= Balok.tinggi;
-            persoalan.setText("Hitunglah Volume");
+            persoalan.setText("Hitunglah Volume Balok");
             a.setText("Panjang :" +Float.toString(p));
             b.setText("Lebar :" +Float.toString(l));
             c.setText("Tinggi :" +Float.toString(t));
@@ -127,7 +127,7 @@ public class Soal extends Fragment {
             float p=Balok.panjang;
             float l= Balok.lebar;
             float t= Balok.tinggi;
-            persoalan.setText("Hitunglah Luas Permukaan ");
+            persoalan.setText("Hitunglah Luas Permukaan Balok");
             a.setText("Panjang :" +Float.toString(p));
             b.setText("Lebar :" +Float.toString(l));
             c.setText("Tinggi :" +Float.toString(t));
@@ -138,7 +138,7 @@ public class Soal extends Fragment {
 
             float r= Tabung.r;
             float t= Tabung.tinggi;
-            persoalan.setText("Hitunglah Volume ");
+            persoalan.setText("Hitunglah Volume Tabung");
             a.setText("Panjang :" +Float.toString(r));
             b.setText("Lebar :" +Float.toString(t));
             jawaban=Tabung.Volume();
@@ -148,7 +148,7 @@ public class Soal extends Fragment {
 
             float r= Tabung.r;
             float t= Tabung.tinggi;
-            persoalan.setText("Hitunglah Luas Permukaan ");
+            persoalan.setText("Hitunglah Luas Permukaan Tabung");
             a.setText("Panjang :" +Float.toString(r));
             b.setText("Lebar :" +Float.toString(t));
 
@@ -160,9 +160,9 @@ public class Soal extends Fragment {
             float u1= Aritmatika.u1;
             float beda= Aritmatika.b;
             float n= Aritmatika.n;
-            persoalan.setText("Hitunglah baris ke- " + n);
-            a.setText("baris-1 :" +Float.toString(u1));
-            b.setText("beda :" +Float.toString(beda));
+            persoalan.setText("Hitunglah Baris Aritmatika ke- " + n);
+            a.setText("Baris-1 :" +Float.toString(u1));
+            b.setText("Beda :" +Float.toString(beda));
             jawaban=Aritmatika.baris();
         }else if(rand==14){
             Rumus_Aritmatika Aritmatika= new Rumus_Aritmatika(0,0,0);
@@ -171,10 +171,10 @@ public class Soal extends Fragment {
             float u1= Aritmatika.u1;
             float beda= Aritmatika.b;
             float n= Aritmatika.n;
-            persoalan.setText("Hitunglah  " + n +"deret ");
-            a.setText("baris-1 :" +Float.toString(u1));
+            persoalan.setText("Hitunglah  " + n +" Deret Aritmatika");
+            a.setText("Baris-1 :" +Float.toString(u1));
 
-            b.setText("beda :" +Float.toString(beda));
+            b.setText("Beda :" +Float.toString(beda));
             jawaban=Aritmatika.deret();
         }else if(rand==15){
             Rumus_Geometri Geometri= new Rumus_Geometri(0,0,0);
@@ -183,9 +183,9 @@ public class Soal extends Fragment {
             float u1= Geometri.u1;
             float r= Geometri.r;
             float n= Geometri.n;
-            persoalan.setText("Hitunglah baris ke- " + n);
-            a.setText("baris-1 :" +Float.toString(u1));
-            b.setText("beda :" +Float.toString(r));
+            persoalan.setText("Hitunglah Baris Geometri ke- " + n);
+            a.setText("Baris-1 :" +Float.toString(u1));
+            b.setText("Beda :" +Float.toString(r));
             jawaban=Geometri.baris();
         }else if(rand==16){
             Rumus_Geometri Geometri= new Rumus_Geometri(0,0,0);
@@ -194,9 +194,9 @@ public class Soal extends Fragment {
             float u1= Geometri.u1;
             float r= Geometri.r;
             float n= Geometri.n;
-            persoalan.setText("Hitunglah  " + n +"deret ");
-            a.setText("baris-1 :" +Float.toString(u1));
-            b.setText("beda :" +Float.toString(r));
+            persoalan.setText("Hitunglah  " + n +" Deret Geometri");
+            a.setText("Baris-1 :" +Float.toString(u1));
+            b.setText("Beda :" +Float.toString(r));
             jawaban=Geometri.deret();
         }
         bthHasil.setOnClickListener(new View.OnClickListener(){
@@ -209,14 +209,14 @@ public class Soal extends Fragment {
                     jmlh=0;
 
                 }else if(data.isEmpty() ){
-                    jawaban_benar.setText("harap jawab terlebih dahulu" );
+                    jawaban_benar.setText("Harap jawab terlebih dahulu!" );
 
                 }else{
                     float jawab= Float.parseFloat(data);
                     if(jawab== jawaban){
-                        jawaban_benar.setText("Selamat jawaban anda benar");
+                        jawaban_benar.setText("Selamat jawaban anda benar!");
                     }else{
-                        jawaban_benar.setText("Jawaban anda salah. Jawabannya adalah " + Float.toString(jawaban));
+                        jawaban_benar.setText("Jawaban anda salah! Jawabannya adalah " + Float.toString(jawaban));
                     }
                     jmlh=1;
 
