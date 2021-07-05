@@ -9,6 +9,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Project_MOOP">
+        <activity android:name=".MulaiQuizActivity"></activity>
         <activity android:name=".PopUp" />
         <activity android:name=".pilih_perhitungan_baris_deret" />
         <activity android:name=".pilih_perhitungan_bangun_datar" />

@@ -17,11 +17,12 @@ public class Persegi extends Fragment {
     private Button bthHasil;
     private EditText data_sisi;
     private TextView hasil_luas,hasil_keliling;
+
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        View v=inflater.inflate(R.layout.fragment_persegi, container, false);
+        View v = inflater.inflate(R.layout.fragment_persegi, container, false);
         bthHasil= v.findViewById(R.id.btnhasil);
 
         data_sisi= v.findViewById(R.id.data_sisi);
@@ -32,9 +33,7 @@ public class Persegi extends Fragment {
 
             @Override
             public void onClick(View v) {
-                String s=data_sisi.getText().toString();
-
-
+                String s = data_sisi.getText().toString();
 
                 if(s.isEmpty() ){
                     hasil_luas.setText("Hasil isi terlebih dahulu");
@@ -49,8 +48,6 @@ public class Persegi extends Fragment {
                     String keliling_str="Luas Permukaan :" + Float.toString(keliling);
                     hasil_luas.setText(luas_str);
                     hasil_keliling.setText(keliling_str);
-
-
                 }
             }
         });

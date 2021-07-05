@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MulaiQuizActivity">
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".pilih_menu_quiz">
+
+        <FrameLayout
+            android:id="@+id/container"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_above="@id/nav_datar"
+            android:layout_marginBottom="1dp"></FrameLayout>
+
+        <ImageView
+            android:id="@+id/imageView11"
+            android:layout_width="162dp"
+            android:layout_height="138dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="216dp"
+            android:layout_marginRight="216dp"
+            android:layout_marginBottom="126dp"
+            android:src="@drawable/mulai_quiz" />
+
+        <LinearLayout
+            android:id="@+id/nav_datar"
+            android:layout_width="173dp"
+            android:layout_height="161dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="46dp"
+            android:layout_marginRight="46dp"
+            android:layout_marginBottom="116dp"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:onClick="soal"
+                android:text="Mulai Quiz"
+                app:backgroundTint="#2196F3"></Button>
+        </LinearLayout>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="-1dp"
+            android:layout_marginRight="-1dp"
+            android:layout_marginBottom="-7dp"
+            android:layout_weight="1"
+            android:onClick="activity_main"
+            android:text="Back"
+            app:backgroundTint="#2196F3"></Button>
+    </RelativeLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

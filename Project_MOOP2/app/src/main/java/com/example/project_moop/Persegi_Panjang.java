@@ -37,8 +37,6 @@ public class Persegi_Panjang extends Fragment {
                 String p=data_panjang.getText().toString();
                 String l=data_lebar.getText().toString();
 
-
-
                 if(p.isEmpty() || l.isEmpty() ){
                     hasil_luas.setText("Hasil isi terlebih dahulu");
                 }else{

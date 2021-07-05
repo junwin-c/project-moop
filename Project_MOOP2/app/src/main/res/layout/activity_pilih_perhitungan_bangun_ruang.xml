@@ -5,46 +5,100 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".pilih_perhitungan_bangun_ruang">
+
     <FrameLayout
         android:layout_above="@+id/nav_datar"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:id="@+id/container"
         ></FrameLayout>
-    <LinearLayout
+
+    <ImageView
+        android:id="@+id/imageView10"
+        android:layout_width="82dp"
+        android:layout_height="93dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
         android:layout_alignParentBottom="true"
-        android:padding="10dp"
+        android:layout_marginEnd="234dp"
+        android:layout_marginRight="234dp"
+        android:layout_marginBottom="273dp"
+        android:src="@drawable/kubus" />
+
+    <ImageView
+        android:id="@+id/imageView12"
+        android:layout_width="79dp"
+        android:layout_height="81dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="236dp"
+        android:layout_marginRight="236dp"
+        android:layout_marginBottom="94dp"
+        android:src="@drawable/cylinder" />
+
+    <ImageView
+        android:id="@+id/imageView11"
+        android:layout_width="88dp"
+        android:layout_height="88dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="233dp"
+        android:layout_marginRight="233dp"
+        android:layout_marginBottom="180dp"
+        android:src="@drawable/rectangle" />
+
+    <LinearLayout
         android:id="@+id/nav_datar"
+        android:layout_width="162dp"
+        android:layout_height="282dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="68dp"
+        android:layout_marginRight="68dp"
+        android:layout_marginBottom="87dp"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="Kubus"
+            android:text="Kubus"
+            app:backgroundTint="#2196F3"></Button>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="Balok"
+            android:text="Balok"
+            app:backgroundTint="#2196F3"></Button>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="Tabung"
+            android:text="Tabung"
+            app:backgroundTint="#2196F3"></Button>
+
+    </LinearLayout>
+
+    <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        ><Button
-        android:onClick="Kubus"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="-1dp"
+        android:layout_marginRight="-1dp"
+        android:layout_marginBottom="-7dp"
         android:layout_weight="1"
-        android:text="Kubus"
-        ></Button>
-        <Button
-            android:onClick="Balok"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:text="Balok"
-            ></Button>
-        <Button
-            android:onClick="Tabung"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:text="Tabung"
-            ></Button>
-        <Button
-            android:onClick="activity_main"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:text="Back"
-            ></Button>
-    </LinearLayout>
+        android:onClick="activity_main"
+        android:text="Back"
+        app:backgroundTint="#2196F3"></Button>
 </RelativeLayout>

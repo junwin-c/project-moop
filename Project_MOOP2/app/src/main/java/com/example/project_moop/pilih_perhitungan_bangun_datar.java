@@ -13,6 +13,7 @@ public class pilih_perhitungan_bangun_datar extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_pilih_perhitungan_bangun_datar);
     }
+
     public void persegi(View view) {
         getSupportFragmentManager().beginTransaction().replace(R.id.container,new Persegi()).commit();
     }

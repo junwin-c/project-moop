@@ -14,7 +14,6 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
     }
 
-
     public void pilih_perhitungan_bangun_ruang(View view) {
         Intent intent=new Intent(MainActivity.this,pilih_perhitungan_bangun_ruang.class);
         startActivity(intent);
@@ -30,7 +29,8 @@ public class MainActivity extends AppCompatActivity {
         startActivity(intent);
     }
 
-    public void soal(View view) {
-        getSupportFragmentManager().beginTransaction().replace(R.id.container,new Soal()).commit();
+    public void pilih_menu_quiz(View view) {
+        Intent intent = new Intent(MainActivity.this, MulaiQuizActivity.class);
+        startActivity(intent);
     }
 }
