@@ -33,7 +33,7 @@
             android:layout_marginRight="10dp"
             android:layout_weight="1"
             android:onClick="Aritmatika"
-            android:text="Baris"
+            android:text="Aritmatika"
             app:backgroundTint="#2196F3"></Button>
 
         <Button
@@ -41,7 +41,7 @@
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:onClick="Geometri"
-            android:text="Deret"
+            android:text="Geometri"
             app:backgroundTint="#2196F3"></Button>
 
     </LinearLayout>
