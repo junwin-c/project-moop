@@ -48,8 +48,8 @@ public class Geometri extends Fragment {
                     hasil_volume.setText("Hasil isi terlebih dahulu");
                 } else {
 
-                    String volume_str = "Baris-ke " + n + ": "+ Float.toString(volume);
-                    String lp_str = "deret :" + Float.toString(lp);
+                    String volume_str = "Baris-ke " + n + " : "+ Float.toString(volume);
+                    String lp_str = "Deret :" + Float.toString(lp);
                     hasil_volume.setText(volume_str);
                     hasil_lp.setText(lp_str);
 

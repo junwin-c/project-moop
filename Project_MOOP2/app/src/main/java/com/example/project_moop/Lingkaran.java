@@ -45,8 +45,8 @@ public class Lingkaran extends Fragment {
                     Rumus_Lingkaran perhitungan= new Rumus_Lingkaran(float_r);
                     float luas= perhitungan.hitungLuas();
                     float keliling=perhitungan.hitungKeliling();
-                    String luas_str= "luas :" + Float.toString(luas);
-                    String keliling_str="Luas Permukaan :" + Float.toString(keliling);
+                    String luas_str= "Luas :" + Float.toString(luas);
+                    String keliling_str="Keliling :" + Float.toString(keliling);
                     hasil_luas.setText(luas_str);
                     hasil_keliling.setText(keliling_str);
 

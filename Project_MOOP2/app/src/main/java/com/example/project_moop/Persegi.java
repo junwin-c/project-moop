@@ -44,8 +44,8 @@ public class Persegi extends Fragment {
                     Rumus_Persegi perhitungan= new Rumus_Persegi(float_s);
                     float luas= perhitungan.hitungLuas();
                     float keliling=perhitungan.hitungKeliling();
-                    String luas_str= "luas :" + Float.toString(luas);
-                    String keliling_str="Luas Permukaan :" + Float.toString(keliling);
+                    String luas_str= "Luas :" + Float.toString(luas);
+                    String keliling_str="Keliling :" + Float.toString(keliling);
                     hasil_luas.setText(luas_str);
                     hasil_keliling.setText(keliling_str);
                 }

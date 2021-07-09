@@ -47,7 +47,7 @@ public class Soal extends Fragment {
             float s=persegi.sisi;
 
             persoalan.setText("Hitunglah Luas Persegi");
-            a.setText("Sisi"+ Float.toString(s));
+            a.setText("Sisi : "+ Float.toString(s));
             jawaban=persegi.hitungLuas();
 
         }else if(rand==2){
@@ -56,7 +56,7 @@ public class Soal extends Fragment {
             float s=persegi.sisi;
 
             persoalan.setText("Hitunglah Keliling Persegi");
-            a.setText("Sisi"+ Float.toString(s));
+            a.setText("Sisi : "+ Float.toString(s));
             jawaban=persegi.hitungKeliling();
         }else if(rand==3){
             Rumus_Persegi_Panjang persegi_panjang= new Rumus_Persegi_Panjang(0,0);
@@ -100,7 +100,7 @@ public class Soal extends Fragment {
             float s=Kubus.sisi;
 
             persoalan.setText("Hitunglah Volume Kubus");
-            a.setText("Sisi"+ Float.toString(s));
+            a.setText("Sisi : "+ Float.toString(s));
             jawaban=Kubus.Volume();
         }else if(rand==8){
             Rumus_kubus Kubus= new Rumus_kubus(0);
@@ -108,7 +108,7 @@ public class Soal extends Fragment {
             float s=Kubus.sisi;
 
             persoalan.setText("Hitunglah Luas Permukaan Kubus");
-            a.setText("Sisi"+ Float.toString(s));
+            a.setText("Sisi : "+ Float.toString(s));
             jawaban=Kubus.LuasPermukaan();
         }else if(rand==9){
             Rumus_Balok Balok= new Rumus_Balok(0,0);

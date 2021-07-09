@@ -49,8 +49,8 @@ public class Aritmatika extends Fragment {
                     hasil_baris.setText("Hasil isi terlebih dahulu");
                 } else {
 
-                    String volume_str = "Baris-ke :" + n + " " + Float.toString(baris);
-                    String lp_str = "jumlah total  :" + Float.toString(deret);
+                    String volume_str = "Baris-ke " + n + " : " + Float.toString(baris);
+                    String lp_str = "Jumlah total  :" + Float.toString(deret);
                     hasil_baris.setText(volume_str);
                     hasil_deret.setText(lp_str);
 
